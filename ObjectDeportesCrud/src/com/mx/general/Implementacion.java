@@ -50,5 +50,17 @@ public class Implementacion  implements Metodos{
 		
 		hash.clear();
 	}
+	
+	public void vacio() {
+		
+		if (hash.isEmpty()) {
+			
+			System.out.println("El has está vacio");
+		}
+		else {
+			System.out.println("El has  NO está vacio");
+		}
+		
+	}
 
 }
