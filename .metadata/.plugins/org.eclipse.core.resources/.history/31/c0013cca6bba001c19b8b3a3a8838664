@@ -1,0 +1,21 @@
+package com.mx.general;
+
+import java.util.Scanner;
+
+public class Principal {
+	
+	public static void main(String[] args) {
+		
+		String nombre; 
+		String genero; 
+		double duracion; 
+		String cantante;
+		
+		Musica musica = null;
+		Scanner lec = null;
+		int menu;
+		
+		
+	}
+
+}

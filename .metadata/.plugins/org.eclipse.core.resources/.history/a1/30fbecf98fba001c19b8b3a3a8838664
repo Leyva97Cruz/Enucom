@@ -1,0 +1,35 @@
+package com.mx.general;
+
+public class Implementacion implements Metodos{
+
+	@Override
+	public void Guardar(ConsolasVJ consola) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void Editar(int indice, ConsolasVJ consola) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void Eliminar(int indice) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public ConsolasVJ buscar(int indice) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void mostrar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,42 @@
+package com.mx.general;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Implementacion  implements Metodos{
+	
+	List<EquiposDeFutbol> lista = new ArrayList<EquiposDeFutbol>();
+
+	@Override
+	public void Guardar(EquiposDeFutbol equipo) {
+		// TODO Auto-generated method stub
+		
+		lista.add(equipo);
+		
+	}
+
+	@Override
+	public void Editar(int indice, EquiposDeFutbol equipo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void Eliminar(int indice) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public EquiposDeFutbol buscar(int indice) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void mostrar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

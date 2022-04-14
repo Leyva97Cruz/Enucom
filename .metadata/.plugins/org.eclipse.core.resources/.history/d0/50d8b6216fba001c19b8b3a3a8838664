@@ -1,0 +1,18 @@
+package com.mx.general;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Principal {
+	
+	public static void main(String[] args) {
+		
+		List<Paises> lista = new ArrayList<Paises>();
+		
+		Paises pais1 = new Paises("Mexico", "CDMX", 3000);
+		Paises pais1 = new Paises("Alemania", "Berlin", 3300);
+		Paises pais1 = new Paises("Francia", "Paris", 3040);
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.mc.general;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+	}
+
+}

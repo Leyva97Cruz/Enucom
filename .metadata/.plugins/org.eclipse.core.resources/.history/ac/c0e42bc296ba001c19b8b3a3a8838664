@@ -1,0 +1,14 @@
+package com.mx.general;
+
+public class Caricatura {
+	
+	 String nombre;
+	 String genero;  
+	 int capitulos;
+	 String fechaEstreno;
+	 
+	 public Caricatura() {
+		 
+	 }
+
+}

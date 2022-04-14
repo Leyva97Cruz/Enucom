@@ -1,0 +1,29 @@
+package com.mx.general;
+
+public class Principal {
+	
+	public static void main(String[] args) {
+		
+		String Nombre;
+		int NumeroDePlaneta;
+		double Masa;
+		String Vida;
+		
+		Planetas Planeta = null;
+		
+		int menu;
+		Scanner lec = null;
+		
+		do {
+			
+			System.out.println("Bienvenidos a la tienda Enucom");
+			System.out.println("1 alta");
+			System.out.println("2 mostrar");
+			System.out.println("3 salir");
+
+			
+		} while (menu < 3);
+		
+	}
+
+}

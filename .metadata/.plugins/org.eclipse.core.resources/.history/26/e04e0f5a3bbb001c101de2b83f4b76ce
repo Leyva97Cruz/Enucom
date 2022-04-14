@@ -1,0 +1,22 @@
+package com.mx.general;
+
+public class Principal {
+	
+	public static void main(String[] args) {
+		Implementacion imp = new Implementacion();
+		
+		RazaPerros rp = null;
+		
+		rp = new RazaPerros("Pit Bull","USA", 100);
+		imp.Guardar(rp);
+		
+		rp = new RazaPerros("Chihuahua","Mexico", 90);
+		imp.Guardar(rp);
+		
+		rp = new RazaPerros("Husky","Alaska", 100);
+		imp.Guardar(rp);
+		
+		imp.Mostrar();
+	}
+
+}

@@ -1,0 +1,24 @@
+package com.mx.general;
+
+import java.util.Scanner;
+
+public class Principal {
+	
+	public static void main(String[] args) {
+		
+		String modelo;
+		String marca;
+		double precio;
+		int ram;
+		
+		Celular cel = null;
+		int menu;
+		Scanner lec = null;  // Lectura del teclado
+		
+		System.out.println("Bienvenidos a la tienda Enucom");
+		System.out.println("1 alta");
+		
+		
+	}
+
+}

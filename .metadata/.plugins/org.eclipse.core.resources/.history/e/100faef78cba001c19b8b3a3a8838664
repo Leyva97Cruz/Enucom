@@ -1,0 +1,12 @@
+package com.mx.general;
+
+public class ConsolasVJ {
+	String nombre;
+	String marca;
+	double precio;
+	
+	public ConsolasVJ() {
+		
+	}
+
+}

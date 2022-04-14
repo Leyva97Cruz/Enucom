@@ -1,0 +1,48 @@
+package com.mx.general;
+
+/*
+ * Crud-->Bebidas-->String nombre, double precio, double calorias, double contenido
+ * HASHMAP<String, Bebidas>
+ * 
+ * 1 alta
+ * 2 editar->precio o calorias
+ * 3 eliminar
+ * 4 bbuscar
+ * 5 mostrar
+ * 6 contar
+ * 7 salir
+ * 
+ * */
+
+public class Bebidas {
+	
+	String nombre;
+	double precio;
+	double calorias; 
+	double contenido;
+	
+	public Bebidas () {
+		
+	}
+
+	public Bebidas(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public Bebidas(String nombre, double precio, double calorias, double contenido) {
+		this.nombre = nombre;
+		this.precio = precio;
+		this.calorias = calorias;
+		this.contenido = contenido;
+	}
+
+	@Override
+	public String toString() {
+		return "[nombre=" + nombre + ", precio=" + precio + ", calorias=" + calorias + ", contenido="
+				+ contenido + "]\n";
+	}
+	
+	
+	
+
+}

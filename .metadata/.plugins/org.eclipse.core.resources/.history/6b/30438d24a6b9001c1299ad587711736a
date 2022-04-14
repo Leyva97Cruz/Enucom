@@ -1,0 +1,9 @@
+package geneal;
+
+public class Perro {
+	
+	String 	Nombre;
+	String 	Raza;
+	int 	Edad;
+
+}

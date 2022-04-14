@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.mx.genera.Lenguajes&apos; to &apos;Lenguaje&apos;&#x0D;&#x0A;- Original project: &apos;HashMapCrudMenu&apos;&#x0D;&#x0A;- Original element: &apos;com.mx.genera.Lenguajes&apos;&#x0D;&#x0A;- Renamed element: &apos;com.mx.genera.Lenguaje&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Lenguajes&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.mx.genera{Lenguajes.java[Lenguajes" matchStrategy="1" name="Lenguaje" qualified="false" references="true" similarDeclarations="false" stamp="1649868045752" textual="false" version="1.0"/>
+</session>

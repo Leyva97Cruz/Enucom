@@ -1,0 +1,15 @@
+package com.mx.general;
+
+public class EquiposDeFutbol {
+	
+	String nombre;
+	String ciudad;
+	int copas;
+	int anios;
+	
+	public EquiposDeFutbol() {
+		
+	}
+	
+
+}

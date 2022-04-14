@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.mx.general.ConsolasV&apos; to &apos;ConsolasVJ&apos;&#x0D;&#x0A;- Original project: &apos;InterfaceCrudMenu&apos;&#x0D;&#x0A;- Original element: &apos;com.mx.general.ConsolasV&apos;&#x0D;&#x0A;- Renamed element: &apos;com.mx.general.ConsolasVJ&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ConsolasV&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.mx.general{ConsolasV.java[ConsolasV" matchStrategy="1" name="ConsolasVJ" qualified="false" references="true" similarDeclarations="false" stamp="1649787477214" textual="false" version="1.0"/>
+</session>

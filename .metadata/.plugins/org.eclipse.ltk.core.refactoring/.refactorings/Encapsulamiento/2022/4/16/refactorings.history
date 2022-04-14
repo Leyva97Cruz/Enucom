@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;geneal&apos; to &apos;com.mx.geneal&apos;&#x0D;&#x0A;- Original project: &apos;Encapsulamiento&apos;&#x0D;&#x0A;- Original element: &apos;Encapsulamiento/src/geneal&apos;&#x0D;&#x0A;- Renamed element: &apos;Encapsulamiento/src/com.mx.geneal&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;geneal&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;geneal" name="com.mx.geneal" qualified="false" references="true" stamp="1649689120091" textual="false" version="1.0"/>
+</session>

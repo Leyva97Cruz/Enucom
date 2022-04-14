@@ -1,0 +1,21 @@
+INDEX VERSION 1.131+C:\Users\ADMON\Documents\Java\Enucom\.metadata\.plugins\org.eclipse.jdt.core
+914287006.index
+2416344075.index
+3529962976.index
+1865797976.index
+2056354001.index
+264600513.index
+611119449.index
+3807469026.index
+2252563110.index
+137696748.index
+2053678359.index
+625882564.index
+1530964323.index
+4191383476.index
+3941018698.index
+3786391175.index
+1793110498.index
+3637742805.index
+3232217616.index
+1439965735.index

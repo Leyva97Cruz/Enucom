@@ -1,0 +1,26 @@
+package com.mx.genera;
+
+public class Lenguajes {
+	int clave;
+	String nombre;
+	int anios;
+	String pais;
+	
+	public Lenguajes() {
+		
+	}
+	public Lenguajes(int clave) {
+		this.clave = clave;
+	}
+	public Lenguajes(int clave, String nombre, int anios, String pais) {
+		this.clave = clave;
+		this.nombre = nombre;
+		this.anios = anios;
+		this.pais = pais;
+	}
+	@Override
+	public String toString() {
+		return "[clave=" + clave + ", nombre=" + nombre + ", anios=" + anios + ", pais=" + pais + "]\n";
+	}
+
+}

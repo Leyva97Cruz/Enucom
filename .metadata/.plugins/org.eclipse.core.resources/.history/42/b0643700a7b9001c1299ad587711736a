@@ -1,0 +1,14 @@
+package geneal;
+
+public class Principal {
+	
+	public static void main(String[] args) {
+		
+		// Instanciar clase
+		
+		Perro perro = new Perro();
+		
+		
+	}
+
+}

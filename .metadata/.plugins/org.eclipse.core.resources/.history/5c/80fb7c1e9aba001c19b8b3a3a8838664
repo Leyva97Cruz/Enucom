@@ -1,0 +1,99 @@
+package com.mx.general;
+
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		String nombre;
+		String genero;
+		int capitulos;
+		String fechaEstreno;
+
+		int menu, menuE, indice;
+		Scanner lec = null;
+		Implementacion imp = new Implementacion();
+
+		do {
+			System.out.println("Bienvenidos tv de caricaturas enucom");
+			System.out.println(" 1 ~> Alta");
+			System.out.println(" 2 ~> Editar");
+			System.out.println(" 3 ~> Eliminar");
+			System.out.println(" 4 ~> Eliminar Todo");
+			System.out.println(" 5 ~> Vacia");
+			System.out.println(" 6 ~> Contar");
+			System.out.println(" 7 ~> Buscar");
+			System.out.println(" 8 ~> Buscar Nombre");
+			System.out.println(" 9 ~> Mostrar");
+			System.out.println(" 10 ~> Salir");
+
+			lec = new Scanner(System.in);
+			menu = lec.nextInt();
+
+			switch (menu) {
+			case 1:
+				
+				System.out.println(" Opcion Alta");
+
+				System.out.println("Ecribe el nombre de la Caricatura");
+				lec = new Scanner(System.in);
+				nombre = lec.nextLine();
+
+				System.out.println("Ecribe el genero de la caricatura");
+				lec = new Scanner(System.in);
+				genero = lec.nextLine();
+
+				System.out.println("Ecribe Cuantos capitulos tiene");
+				lec = new Scanner(System.in);
+				capitulos = lec.nextInt();
+				
+				System.out.println("Ecribel la fecha de estreno");
+				lec = new Scanner(System.in);
+				fechaEstreno = lec.nextLine();
+
+				consola = new ConsolasVJ(nombre, marca, precio);
+				imp.Guardar(consola);
+				System.out.println("Se guardo la consola " + consola.getNombre());
+
+				break;
+
+			case 2:
+
+				break;
+
+			case 3:
+
+				break;
+
+			case 4:
+
+				break;
+			case 5:
+
+				break;
+
+			case 6:
+
+				break;
+			case 7:
+
+				break;
+
+			case 8:
+
+				break;
+			case 9:
+
+				break;
+
+			case 10:
+
+				break;
+
+			}
+
+		} while (menu < 10);
+	}
+
+}

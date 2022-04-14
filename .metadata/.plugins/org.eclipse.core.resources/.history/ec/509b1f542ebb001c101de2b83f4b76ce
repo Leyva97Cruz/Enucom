@@ -1,0 +1,32 @@
+package com.mx.general;
+
+public class EquiposDeFutbol {
+	
+	String nombre;
+	String ciudad;
+	int copas;
+	int anios;
+	
+	public EquiposDeFutbol() {
+		
+	}
+
+	public EquiposDeFutbol(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public EquiposDeFutbol(String nombre, String ciudad, int copas, int anios) {
+		this.nombre = nombre;
+		this.ciudad = ciudad;
+		this.copas = copas;
+		this.anios = anios;
+	}
+
+	@Override
+	public String toString() {
+		return "[nombre=" + nombre + ", ciudad=" + ciudad + ", copas=" + copas + ", anios=" + anios
+				+ "]\n";
+	}
+	
+
+}

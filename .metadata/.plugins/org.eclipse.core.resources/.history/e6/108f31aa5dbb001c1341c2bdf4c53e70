@@ -1,0 +1,32 @@
+package com.mx.general;
+
+
+
+public class Deporte {
+	
+	String nombre;
+	String pais;
+	int anios;
+	int jugadores;
+	
+	public Deporte() {
+		
+	}
+
+	public Deporte(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public Deporte(String nombre, String pais, int anios, int jugadores) {
+		this.nombre = nombre;
+		this.pais = pais;
+		this.anios = anios;
+		this.jugadores = jugadores;
+	}
+
+	@Override
+	public String toString() {
+		return "[nombre=" + nombre + ", pais=" + pais + ", anios=" + anios + ", jugadores=" + jugadores + "]\n";
+	}
+
+}

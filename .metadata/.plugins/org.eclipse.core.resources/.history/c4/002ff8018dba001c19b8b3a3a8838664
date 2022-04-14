@@ -1,0 +1,23 @@
+package com.mx.general;
+
+public class ConsolasVJ {
+	String nombre;
+	String marca;
+	double precio;
+	
+	public ConsolasVJ() {
+		
+	}
+
+	public ConsolasVJ(String nombre, String marca, double precio) {
+		this.nombre = nombre;
+		this.marca = marca;
+		this.precio = precio;
+	}
+
+	@Override
+	public String toString() {
+		return "[nombre=" + nombre + ", marca=" + marca + ", precio=" + precio + "]\n";
+	}
+
+}

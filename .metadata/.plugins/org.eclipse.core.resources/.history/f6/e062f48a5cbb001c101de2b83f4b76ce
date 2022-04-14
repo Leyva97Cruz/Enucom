@@ -1,0 +1,13 @@
+package com.mx.general;
+
+public class Principal {
+	
+	public static void main(String[] args) {
+		Implementacion imp = new Implementacion();
+		
+		Heroe e = null;
+		
+		
+	}
+
+}

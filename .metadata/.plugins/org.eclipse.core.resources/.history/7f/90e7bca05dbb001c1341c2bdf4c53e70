@@ -1,0 +1,14 @@
+package com.mx.general;
+
+
+
+public class Deporte {
+	
+	String nombre;
+	String pais;
+	int anios;
+	int jugadores;
+	
+	
+
+}

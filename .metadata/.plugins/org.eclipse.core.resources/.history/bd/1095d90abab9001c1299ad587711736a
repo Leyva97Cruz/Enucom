@@ -1,0 +1,61 @@
+package com.mx.general;
+
+import java.util.Scanner;
+
+public class Principal {
+	
+	public static void main(String[] args) {
+		
+		String Nombre;
+		int NumeroDePlaneta;
+		double Masa;
+		String Vida;
+		
+		Planetas Planeta = null;
+		
+		int menu;
+		Scanner lec = null;
+		
+		do {
+			
+			System.out.println("Bienvenidos a la tienda Enucom");
+			System.out.println("1 alta");
+			System.out.println("2 mostrar");
+			System.out.println("3 salir");
+			
+			switch (menu) {
+			case 1:
+				
+				System.out.println("Opcion Alta");
+				
+				System.out.println("Escribe el nombre del planeta");
+				lec = new Scanner(System.in);
+				Nombre = lec.nextLine();
+				
+				System.out.println("Escribe que numero de planeta es");
+				lec = new Scanner(System.in);
+				NumeroDePlaneta = lec.nextInt();
+				
+				System.out.println("Escribe la masa del planeta");
+				lec = new Scanner(System.in);
+				Masa = lec.nextDouble();
+				
+				System.out.println("Escribe si el planeta esta en vida");
+				lec = new Scanner(System.in);
+				Vida = lec.nextLine();
+						
+
+				
+				System.out.println("Se dio de alta el celular" + cel.getModelo());
+				break;
+				
+				
+				
+			}
+			
+			
+		} while (menu < 3);
+		
+	}
+
+}

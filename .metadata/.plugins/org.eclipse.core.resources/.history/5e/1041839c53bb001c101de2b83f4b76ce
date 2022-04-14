@@ -1,0 +1,7 @@
+package com.mx.general;
+
+public interface Metodos {
+	
+	public void guarda(Bebida bebida);
+
+}
